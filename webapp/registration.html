@@ -2,24 +2,33 @@
 <html>
     <head>
         <title>Registration Page</title>
+        <style>
+            #container1{
+                background-color: bisque;
+                text-align: center;
+            }    
+        </style>
     </head>
     <body>
 
         <form>
-            <label for="fname">First Name: </label>
-            <input type="text" name="firstname"/>
-            <br>
-            <br>
-            <label for="lname">Last Name: </label>
-            <input type="text" name="lastname"/>
-            <br>
-            <br>
-            <label for="password">Password: </label>
-            <input type="password" name="password"/>
-            <br>
-            <br>
-            <label for="phonenumber">Phone Number: </label>
-            <input type="number" name="phonenumber"/>
+
+            <div id="container1">
+                <label for="fname">First Name: </label>
+                <input type="text" name="firstname"/>
+                <br>
+                <br>
+                <label for="lname">Last Name: </label>
+                <input type="text" name="lastname"/>
+                <br>
+                <br>
+                <label for="password">Password: </label>
+                <input type="password" name="password"/>
+                <br>
+                <br>
+                <label for="phonenumber">Phone Number: </label>
+                <input type="number" name="phonenumber"/>
+            </div>
             <br>
             <br>
             <label for="email">Email: </label>
@@ -27,7 +36,7 @@
             <br>
             <br>
             <label for="course">Course Details:</label>
-            <select>
+            <select multiple>
                 <option>Select a course...</option>
                 <option value="B.TECH">B.TECH</option>
                 <option value="M.TECH">M.TECH</option>
@@ -54,6 +63,8 @@
             <textarea cols="80" row="5"></textarea>
             <br>
             <br>
+            <label>Upload Your Picture:</label>
+            <input type="file" name="file"/>
             <input type="button" value="Submit"/>
 
         </form>
