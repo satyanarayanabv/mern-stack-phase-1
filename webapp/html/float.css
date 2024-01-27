@@ -1,0 +1,15 @@
+*{
+    background-color:bisque;
+}
+
+p{
+    text-decoration: underline;
+    text-decoration-color:brown ;
+}
+body{
+    display: inline-block;
+    background-color: lightseagreen;
+}
+img{
+    float: inline-end;
+}
