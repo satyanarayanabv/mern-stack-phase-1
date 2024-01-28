@@ -59,7 +59,12 @@ do{
 }while(doWhileCounter > 4)
 
 console.log("For In loop: ")
-let person = {name:"John", age:30, job:"Developer"};
+let person = {
+//  key : Value
+    name:["John", "Sam"], 
+    age:30, 
+    job:"Developer"
+};
 
 for(let key in person){
     console.log(key + " : " + person[key]);
